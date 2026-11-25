@@ -1,0 +1,11 @@
+# Local credentials
+secrets.h
+secrets.local.h
+.env
+.env.*
+
+# IDE and build files
+.vscode/
+.idea/
+.DS_Store
+*.log
