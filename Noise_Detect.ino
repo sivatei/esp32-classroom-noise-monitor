@@ -10,7 +10,7 @@ const char* WIFI_PASS = "";
 //ThingsBoard login.  
 const char* MQTT_SERVER = "thingsboard.cloud";
 const int   MQTT_PORT   = 1883;
-const char* MQTT_TOKEN  = "BOofAdywM7xCiscneb4b";
+#include "secrets.h"
 
 const char* TOPIC_TELEMETRY = "v1/devices/me/telemetry";
 const char* TOPIC_RPC       = "v1/devices/me/rpc/request/+";   
