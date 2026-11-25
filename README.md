@@ -22,8 +22,8 @@ Check pin definitions in `Noise_Detect.ino` and wire components to match the con
 ## Setup
 1. Install ESP32 board support in Arduino IDE.
 2. Install the PubSubClient and ArduinoJson libraries.
-3. Create a ThingsBoard device and configure its token locally before uploading.
-4. Configure Wi-Fi credentials locally.
+3. Copy `secrets.example.h` to `secrets.h` in the same folder and replace the placeholder with your newly generated device token. The local `secrets.h` file is ignored by Git.
+4. Configure Wi-Fi credentials locally in the sketch; do not commit them.
 5. Review GPIO assignments and calibrate the microphone threshold.
 6. Upload the sketch and open the serial monitor.
 7. Configure a ThingsBoard dashboard for telemetry and the supported RPC command.
